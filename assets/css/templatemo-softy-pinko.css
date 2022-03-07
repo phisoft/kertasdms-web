@@ -836,6 +836,13 @@ features
   }
 }
 
+@media only screen and (max-width: 770px) {
+  .col-xs-12 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 /* 
 ---------------------------------------------
 parallax & home seperator
