@@ -265,6 +265,7 @@ body {
   color: #777;
   line-height: 28px;
   letter-spacing: 1px;
+  text-align: left;
 }
 
 .left-text.light {
@@ -272,7 +273,8 @@ body {
 }
 
 .left-text p {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin: 0 0 30px 0px;
 }
 
 .left-text p.dark {
@@ -969,6 +971,13 @@ TAB LAYOUT
 features
 --------------------------------------------- 
 */
+.col-desc {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 .features-small-item {
   cursor: pointer;
   display: block;
