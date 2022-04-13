@@ -27,7 +27,10 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+/* @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 
 /* 
 ---------------------------------------------
@@ -142,7 +145,7 @@ hgroup {
 
 html,
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -177,7 +180,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
@@ -260,6 +263,15 @@ body {
 }
 
 .left-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #777;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.left-text-1 {
   font-weight: 400;
   font-size: 16px;
   color: #777;
