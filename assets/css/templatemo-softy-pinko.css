@@ -865,7 +865,30 @@ TAB LAYOUT
   text-align: center;
   position: relative;
   top: 10vh;
+  font-size: 35px;
+  font-weight: bold;
 }
+
+#tab h2 {
+  color: #474747;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#tab p {
+  color: #474747;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+#tab li {
+  color: #474747;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
 
 .tabs-container {
   max-width: 1110px;
@@ -913,7 +936,7 @@ TAB LAYOUT
 .tabs-content {
   position: relative;
   z-index: 2;
-  padding: 0 3vh 3vh 3vh;
+  /* padding: 0 3vh 3vh 3vh; */
   border-radius: 0 4px 4px 4px;
   background: #E5F1FF;
 }
@@ -940,7 +963,7 @@ TAB LAYOUT
   padding-bottom: 3rem !important;
 }
 
-#tab.container .child-product .row-product .col-product h4 {
+/* #tab.container .child-product .row-product .col-product h4 {
   font-size: 25px;
   font-weight: 600;
   text-align: center;
@@ -956,7 +979,20 @@ TAB LAYOUT
   color: #30282B;
   font-size: 18px;
   text-align: justify;
+} */
+
+.col-tab ul li {
+  /* font-weight: bold; */
+  text-align: left;
+  direction: rtl;
 }
+
+.col-tab ul li:after {
+  padding-right: 7px;
+  font-weight: bold;
+  content: "•";
+}
+
 
 .image-tab {
   position: relative;
@@ -972,9 +1008,16 @@ TAB LAYOUT
 }
 
 .image-tab img {
+  max-width: 100%;
   width: 100%;
   overflow: hidden;
 }
+
+#tab img {
+  border-radius: 30px;
+  padding: 12px;
+}
+
 
 
 
