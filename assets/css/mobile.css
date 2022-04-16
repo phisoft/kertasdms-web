@@ -3,6 +3,21 @@ TAB RESPONSIVENESS
 *************************************/
 
 @media (min-width:992px) {
+    #feature-1 {
+        position: relative;
+        right: 6vh;
+    }
+
+    #feature-2 {
+        position: relative;
+        left: 10vh;
+    }
+
+    #feature-3 {
+        position: relative;
+        right: 10vh;
+    }
+
     .row-tab {
         display: -ms-flexbox;
         display: flex;
@@ -50,6 +65,14 @@ TAB RESPONSIVENESS
 
     .left-text-1 p {
         margin: 0 0 30px 40px;
+    }
+
+    .left-text-2 p {
+        margin: 0 0px 30px 0px;
+    }
+
+    .left-text-3 p {
+        margin: 0 0 30px 0px;
     }
 
     .image-tab img {
