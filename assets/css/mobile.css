@@ -8,11 +8,6 @@ TAB RESPONSIVENESS
         right: 6vh;
     }
 
-    #feature-2 {
-        position: relative;
-        left: 10vh;
-    }
-
     #feature-3 {
         position: relative;
         right: 10vh;
@@ -21,12 +16,10 @@ TAB RESPONSIVENESS
     .row-tab {
         display: -ms-flexbox;
         display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         margin: 5vh 0 5vh 0;
-        padding: 0 2vh 0 2vh;
+        padding: 0 3vh 0 3vh;
     }
 
     .col-tab {
@@ -95,8 +88,6 @@ TAB RESPONSIVENESS
 
     .tabs-container {
         max-width: 1000px;
-        margin: 1vh 2vh 2vh 1vh;
-        padding: 5px;
         background-color: #E5F1FF;
         border-radius: 15px;
     }
@@ -105,7 +96,6 @@ TAB RESPONSIVENESS
         color: #474747;
         font-size: 24px;
         font-weight: bold;
-        padding: 10px;
     }
 
     #tab p {
@@ -113,11 +103,6 @@ TAB RESPONSIVENESS
         font-size: 16px;
         line-height: 28px;
         letter-spacing: 1px;
-        padding: 10px;
-    }
-
-    #tab ul {
-        padding: 10px;
     }
 
     .tabs li {
@@ -136,11 +121,13 @@ TAB RESPONSIVENESS
         width: 100%;
         /* background: white; */
         color: black;
+        text-align: center;
     }
 
     .tabs li.active a {
         color: black;
         background-color: white;
+        text-align: center;
     }
 
     .tabs li.active a::before {
@@ -170,22 +157,18 @@ TAB RESPONSIVENESS
 
     .image-tab {
         position: relative;
-        padding-bottom: 1.5rem !important;
         padding-top: 1.5rem !important;
         position: relative;
         width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
         -ms-flex-order: 0;
         order: 0;
-        padding-bottom: 3rem !important;
     }
 
-    .col-tab {
+    /* .col-tab {
         width: 100%;
         padding-right: 25px;
         padding-left: 15px;
-    }
+    } */
 }
 
 @media (max-width:768px) {
@@ -216,12 +199,11 @@ TAB RESPONSIVENESS
         font-size: 16px;
         line-height: 28px;
         letter-spacing: 1px;
-        padding: 10px;
     }
 
-    #tab ul {
+    /* #tab ul {
         padding: 10px;
-    }
+    } */
 
     .tabs-container {
         max-width: 1000px;
@@ -294,9 +276,27 @@ TAB RESPONSIVENESS
 
     .col-tab {
         width: 100%;
-        padding-right: 25px;
-        padding-left: 15px;
     }
+}
+
+@media (max-width: 420px) {
+    #tab ul {
+        padding: 0px;
+    }
+
+    .image-tab {
+        position: relative;
+        padding-bottom: 0.5rem !important;
+        padding-top: 1.5rem !important;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        -ms-flex-order: 0;
+        order: 0;
+        padding-bottom: 0.5rem !important;
+    }
+
 }
 
 @media (max-width: 392px) {
